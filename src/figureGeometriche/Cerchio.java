@@ -1,4 +1,4 @@
-package operazioniGeometriche;
+package figureGeometriche;
 
 public class Cerchio {
     

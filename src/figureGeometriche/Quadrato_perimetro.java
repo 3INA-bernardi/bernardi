@@ -1,5 +1,5 @@
 
-package operazioniGeometriche;
+package figureGeometriche;
 public class Quadrato_perimetro {
     
     public float n1;

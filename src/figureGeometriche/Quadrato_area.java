@@ -1,5 +1,5 @@
 
-package operazioniGeometriche;
+package figureGeometriche;
 public class Quadrato_area {
     
     public float n1;

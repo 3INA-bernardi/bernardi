@@ -1,4 +1,4 @@
-package operazioniGeometriche;
+package figureGeometriche;
 
 import java.util.Scanner;
 
