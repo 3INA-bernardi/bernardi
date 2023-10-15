@@ -1,4 +1,4 @@
-package figureGeometriche;
+package operazioniGeometriche;
 
 import java.util.Scanner;
 
@@ -28,9 +28,7 @@ public class RettangoloTest {
         System.out.printf("Il lato uno è : %.2f\n", lato1);
         System.out.printf("Il lato due è : %.2f\n", lato2);
         System.out.printf("L'area è      : %.2f\n", area);
-        System.out.printf("Il perimetro è: %.2f\n", perimetro);
-     
-        
+        System.out.printf("Il perimetro è: %.2f\n", perimetro);  
     }
     
 }

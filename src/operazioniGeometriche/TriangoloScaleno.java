@@ -1,4 +1,4 @@
-package figureGeometriche;
+package operazioniGeometriche;
 
 public class TriangoloScaleno {
     
@@ -25,4 +25,35 @@ public class TriangoloScaleno {
         return area;
     }
     
+    public float getLato1(){
+        return lato1;
+    }
+    
+    public void setLato1(float lato1){
+        this.lato1=lato1;
+    }
+    
+    public float getLato3(){
+        return lato3;
+    }
+     
+    public void setLato3(float lato3){
+        this.lato3=lato3;
+    }
+    
+    public float getLato2(){
+        return lato2;
+    }
+    
+    public void setlato2(float lato2){
+        this.lato2=lato2;
+    }
+    
+    public String info(){
+        String testo;
+        testo= "lato 1: " + lato1 + "\n" + 
+               "lato 2: " + lato2 + "\n" +
+               "lato 3: " + lato3 + "\n";
+        return testo;
+    } 
 }

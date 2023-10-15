@@ -1,4 +1,4 @@
-package figureGeometriche;
+package operazioniGeometriche;
 
 public class Cerchio {
     
@@ -19,4 +19,18 @@ public class Cerchio {
         circonferenza=(3.14f*2*raggio);
         return circonferenza;
     }
+    
+    public float getRaggio(){
+        return raggio;
+    }
+    
+    public void setRaggio(float raggio){
+        this.raggio=raggio;
+    }
+    
+    public String info(){
+        String testo;
+        testo= "Il raggio è: " + raggio;
+        return testo;   
+    }    
 }

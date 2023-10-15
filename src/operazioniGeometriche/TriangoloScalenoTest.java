@@ -1,8 +1,8 @@
-package figureGeometriche;
+package operazioniGeometriche;
 
 import java.util.Scanner;
 
-public class TriangoloTest {
+public class TriangoloScalenoTest {
 
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
@@ -34,9 +34,6 @@ public class TriangoloTest {
         System.out.printf("Il lato due è :  %.2f\n", lato2);
         System.out.printf("Il lato tre è :  %.2f\n", lato3);
         System.out.printf("L'area è      :  %.2f\n", area);
-        System.out.printf("Il perimetro è:  %.2f\n", perimetro);
-     
-        
+        System.out.printf("Il perimetro è:  %.2f\n", perimetro);  
     }
-    
 }
