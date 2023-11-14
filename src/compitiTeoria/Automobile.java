@@ -5,7 +5,7 @@ public class Automobile {
     
     private String targa;
     private boolean avviata;
-    
+   
     public Automobile(String targa){
         this.targa=targa;
     }
